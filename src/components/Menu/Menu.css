@@ -1,0 +1,30 @@
+.navbar-profile-pic img {
+    border-radius: 90px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-top: 30px;
+    /* text-align: center; */
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nav-link svg{
+    margin-right: 10px;
+}
+.nav-link:hover{
+   color: rgb(149, 218, 255);
+}
