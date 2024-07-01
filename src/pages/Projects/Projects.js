@@ -22,7 +22,7 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Full stack</span>
+                  
                   <img
                     src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
                     alt="project1"
@@ -37,7 +37,7 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Techinfoyt Shopping Website
+                      Portfolio-Website
                     </h6>
                   </div>
                   <a
@@ -46,32 +46,9 @@ const Projects = () => {
                   >
                     View
                   </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">Mobile App</span>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
-                    alt="project2"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React Native</span>
-
-                  <span className="card-detail-badge">IOS / ANDROID</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Coding App</h5>
-                  </div>
-                  <a
-                    className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
-                  >
-                    View
+                  <a className="sourceCode"
+                  href="https://github.com/jollyhub8278/Portfolio-Website">
+                    Source Code
                   </a>
                 </div>
               </div>
@@ -79,24 +56,85 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Backend</span>
+                 
                   <img
-                    src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZecMggX5KTy0-zpTYxJIvstegV9-3HgiEw&s"
+                    alt="project2"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">React based app</span>
+
+                  <span className="card-detail-badge">Responsive</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">Weather-App</h5>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://weather-app-chi-three-27.vercel.app/"
+                  >
+                    View
+                  </a>
+                  <a className="sourceCode"
+                  href="https://github.com/jollyhub8278/weather-app">
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0070/7032/files/dalai-lama-quote.png?v=1706740038"
                     alt="project1"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-
-                  <span className="card-detail-badge">NoSQL</span>
+                  <span className="card-detail-badge">ReactJs</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Techinfoyt Job Portal</h5>
+                    <h5 className="text-uppercase">Quote-Generator</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a className="ad-btn" href="https://advice-generator-weld-chi.vercel.app/">
                     View
+                  </a>
+                  <a className="sourceCode"
+                  href="https://github.com/jollyhub8278/advice-generator">
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card rounded">
+                <div className="card-image">
+                  
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0070/7032/files/dalai-lama-quote.png?v=1706740038"
+                    alt="project1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">HTML</span>
+                  <span className="card-detail-badge">CSS</span>
+                  <span className="card-detail-badge">Javascript</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">Tic-Tac-Toe</h5>
+                  </div>
+                  <a className="ad-btn" 
+                  href="https://tic-tac-toe-snowy-delta.vercel.app/">
+                    View
+                  </a>
+                  <a className="sourceCode"
+                  href="https://github.com/jollyhub8278/Tic-Tac-Toe-">
+                    Source Code
                   </a>
                 </div>
               </div>

@@ -6,7 +6,6 @@ import { FcReadingEbook } from "react-icons/fc";
 import { FcBiotech } from "react-icons/fc";
 import { FcGraduationCap } from "react-icons/fc";
 import { FcPieChart } from "react-icons/fc";
-import { FcPortraitMode } from "react-icons/fc";
 import { FcList } from "react-icons/fc";
 
 const Menu = ({ toggle }) => {
@@ -29,19 +28,16 @@ const Menu = ({ toggle }) => {
                 <FcAbout />About
               </div>
               <div className="nav-link">
-              <FcReadingEbook />Work Experience
+              <FcGraduationCap />Education
               </div>
               <div className="nav-link">
               <FcBiotech />Tech Stack
               </div>
               <div className="nav-link">
-              <FcGraduationCap />Education
-              </div>
-              <div className="nav-link">
                 <FcPieChart />Projects
               </div>
               <div className="nav-link">
-              <FcPortraitMode />Testimonial
+              <FcReadingEbook />Work Experience
               </div>
               <div className="nav-link">
               <FcList />Contact
