@@ -25,3 +25,9 @@
     background-color: rgb(255, 113, 136);
     border-radius: 15px;
 }
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+    .sidebar {
+      display: none;
+    }
+  }
