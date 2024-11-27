@@ -43,9 +43,9 @@ const Homepage = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                // href="https://api.whatsapp.com/send?phone=1234567890"
-                // rel="noreferrer"
-                // target="_blank"
+                href="https://api.whatsapp.com/send?phone=12345678"
+                rel="noreferrer"
+                target="_blank"
               >
                 Hire Me
               </a>

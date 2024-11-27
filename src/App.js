@@ -9,11 +9,14 @@ import WorkExp from "./pages/workExp/workExp";
 import ScrollToTop from "react-scroll-to-top";
 import { TfiArrowCircleUp } from "react-icons/tfi";
 import MobileNav from "./components/MobileNav/MobileNav";
+import {ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import ScrollProgressLine from "@yiyb0603/react-scroll-progress-line";
 
 function App() {
   return (
     <>
+      <ToastContainer/>
       <MobileNav/>
       <Layout />
       <div className="container">

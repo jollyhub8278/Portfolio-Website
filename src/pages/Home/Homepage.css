@@ -45,7 +45,7 @@
     transition: 1s;
 }
   
-  /* .theme-btn {
+  .theme-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,10 +60,9 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index: 1;
-  }*/
+  }
   
-  /* =============== */
-  /* @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .home-container {
       padding: 0;
       margin: 0;
@@ -75,4 +74,4 @@
     .home-container h1 {
       font-size: 24px;
     }
-  }  */
+  } 
