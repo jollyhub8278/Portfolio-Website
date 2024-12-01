@@ -24,6 +24,13 @@ const Layout = () => {
           </div>
               <Menu toggle = {toggle}/>
         </div>
+        {/* <video autoPlay muted loop className="background-video">
+          <source
+            src={require("../../assets/docs/bgVdo1.mp4")}
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video> */}
         <div className="container">
           <Homepage />
         </div>

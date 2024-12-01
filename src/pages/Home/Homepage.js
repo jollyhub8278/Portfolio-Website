@@ -12,6 +12,7 @@ const Homepage = () => {
   // const handleTheme = () => {
   //   setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
   // };
+
   return (
     <>
       <div className="container-fluid home-container" id="home">
@@ -22,37 +23,38 @@ const Homepage = () => {
             <BsFillSunFill size={30} />
           )}
         </div> */}
+        
         <div className="container home-content">
           {/* <Fade right> */}
-            <h2>Hi 👋 I'm a</h2>
-            <h1>
-              <Typewriter
-                options={{
-                  strings: [
-                    "FullStack Developer!",
-                    "Mern Stack Developer!",
-                    "React native Developer!",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h1>
+          <h2>Hi 👋 I'm a</h2>
+          <h1>
+            <Typewriter
+              options={{
+                strings: [
+                  "FullStack Developer!",
+                  "MERN Stack Developer!",
+                  "React Native Developer!",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h1>
           {/* </Fade> */}
           {/* <Fade bottom> */}
-            <div className="home-buttons">
-              <a
-                className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=12345678"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Hire Me
-              </a>
-              <a className="btn btn-cv" href={Resume} download="bharti.pdf">
-                My Resume
-              </a>
-            </div>
+          <div className="home-buttons">
+            <a
+              className="btn btn-hire"
+              href="https://api.whatsapp.com/send?phone=12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Hire Me
+            </a>
+            <a className="btn btn-cv" href={Resume} download="bharti.pdf">
+              My Resume
+            </a>
+          </div>
           {/* </Fade> */}
         </div>
       </div>

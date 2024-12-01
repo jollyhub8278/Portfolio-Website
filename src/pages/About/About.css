@@ -1,24 +1,35 @@
 .about {
     margin: 30px 0px;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-left: 200px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
   
-  .about-img img {
+  .about-img {
+    margin-top: 10px;
+    margin-left: 50px;
     border-radius: 10px;
-    width: 100%;
+    width: 400px;
     height: 400px;
+    background-image: url('D:/portfolio_website/client/src/assets/docs/IMG-20241128-WA0012.jpg') ;
+    background-size: cover; /* Options: cover, contain */
+    background-position: center;
+    background-repeat: no-repeat;
   }
-  
+
   .about-content {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
   }
   
   .about-content h1 {
+    margin-top: -10px;
     color: gray;
     font-family: cursive;
     border-bottom: 2px solid gray;

@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  position: relative;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  background-image: url('D:/portfolio_website/client/src/assets/docs/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8; /* Adjust opacity as needed */
+  z-index: -1; /* Sends it behind the content */
+}
