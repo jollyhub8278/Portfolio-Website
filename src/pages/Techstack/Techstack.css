@@ -1,16 +1,17 @@
 .techstack {
     padding-left: 130px;
     margin-top: 60px;
+    margin-left: -10px;
   }
   .techstack hr {
-    color: #138781;
+    color: #000000;
     width: 400px;
     margin: 10px auto;
   }
   
   .techstack h2 {
     font-weight: bold;
-    color: #138781;
+    color: #393c3c;
   }
   
   .techstack .card {

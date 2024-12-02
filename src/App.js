@@ -11,6 +11,7 @@ import { TfiArrowCircleUp } from "react-icons/tfi";
 import MobileNav from "./components/MobileNav/MobileNav";
 import {ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './App.css';
 // import ScrollProgressLine from "@yiyb0603/react-scroll-progress-line";
 
 function App() {
@@ -33,6 +34,13 @@ function App() {
         component={<TfiArrowCircleUp />}
         style={{height:"50px",width:"50px", borderRadius:"25px"}}
       />
+      <footer>
+  <p>&copy; 2024 Portfolio-Website| All rights reserved |
+    <a href="https://www.instagram.com/bharti_8278" target="_blank" rel="noopener noreferrer">Instagram</a> |
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </p>
+</footer>
+
     </>
   );
 }

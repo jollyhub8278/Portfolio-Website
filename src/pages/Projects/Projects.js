@@ -1,7 +1,16 @@
 import React from "react";
 import "./Projects.css";
-// import Spin from "react-reveal/Spin";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Projects = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
   return (
     <>
       <div className="continer project" id="projects">
@@ -10,140 +19,63 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia a
-          odit ab, eligendi cupiditate, minima quasi excepturi modi et quo
-          delectus, iusto dolor atque aliquam aspernatur eveniet! Ipsam eum
-          nobis omnis id voluptatibus quas eos maxime ipsum facere numquam,
-          voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
-        </p>
+        Explore my collection of web development projects showcasing responsive designs, seamless user interfaces, and efficient functionality. These projects reflect my expertise in modern web technologies like React.js, Node.js, and MongoDB, blending creativity with robust coding practices. Dive into the details to see how I bring ideas to life in the digital world!    </p>
         {/* card design */}
         <div className="row" id="ads">
-          {/* <Spin> */}
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  
-                  <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">react</span>
-                  <span className="card-detail-badge">Mongodb</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
-                      Portfolio-Website
-                    </h6>
-                  </div>
-                  <a
-                    className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
-                  >
-                    View
-                  </a>
-                  <a className="sourceCode"
-                  href="https://github.com/jollyhub8278/Portfolio-Website">
-                    Source Code
-                  </a>
-                </div>
+         <div className="mt-20">
+        <Slider {...settings}>
+          {data.map((d)=>(
+            <div className=" h-[450px] text-balck rounded-xl ads-card">
+              <div
+                className="ads-image"
+                style={{ backgroundImage: `url(${d.image})` }}
+              ></div>
+              <div className="flex flex-col justify-center items-center gap-4 p-4">
+                <p className="text-xl font-semibold ads-name">{d.projectName}</p>
+                <a href={d.view} target="_blank" rel="noopener noreferrer">
+                  <button className="blue text-white text-lg px-6 py-1 rounded-xl ads-view">View</button>
+                </a>
+                <a href={d.source} target="_blank" rel="noopener noreferrer">
+                  <button className="ads-source">Source Code</button>
+                </a>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                 
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZecMggX5KTy0-zpTYxJIvstegV9-3HgiEw&s"
-                    alt="project2"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React based app</span>
-
-                  <span className="card-detail-badge">Responsive</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Weather-App</h5>
-                  </div>
-                  <a
-                    className="ad-btn"
-                    href="https://weather-app-chi-three-27.vercel.app/"
-                  >
-                    View
-                  </a>
-                  <a className="sourceCode"
-                  href="https://github.com/jollyhub8278/weather-app">
-                    Source Code
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0070/7032/files/dalai-lama-quote.png?v=1706740038"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">ReactJs</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Quote-Generator</h5>
-                  </div>
-                  <a className="ad-btn" href="https://advice-generator-weld-chi.vercel.app/">
-                    View
-                  </a>
-                  <a className="sourceCode"
-                  href="https://github.com/jollyhub8278/advice-generator">
-                    Source Code
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0070/7032/files/dalai-lama-quote.png?v=1706740038"
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">HTML</span>
-                  <span className="card-detail-badge">CSS</span>
-                  <span className="card-detail-badge">Javascript</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Tic-Tac-Toe</h5>
-                  </div>
-                  <a className="ad-btn" 
-                  href="https://tic-tac-toe-snowy-delta.vercel.app/">
-                    View
-                  </a>
-                  <a className="sourceCode"
-                  href="https://github.com/jollyhub8278/Tic-Tac-Toe-">
-                    Source Code
-                  </a>
-                </div>
-              </div>
-            </div>
-          {/* </Spin> */}
+          ))}
+         </Slider>
+         </div>
         </div>
       </div>
     </>
   );
 };
 
+const data = [
+  {
+    // image: `#`,
+    image : `https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg`,
+    projectName : `Portfolio-Website`,
+    view : `#`,
+    sourceCode : `https://github.com/jollyhub8278/Portfolio-Website`,
+  },
+  {
+    image : `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToZecMggX5KTy0-zpTYxJIvstegV9-3HgiEw&s`,
+    projectName : `Weather-App`,
+    view : `https://weather-app-chi-three-27.vercel.app/`,
+    sourceCode : `https://github.com/jollyhub8278/weather-app`,
+  },
+  {
+    // image: `#`,
+    image : `https://cdn.shopify.com/s/files/1/0070/7032/files/dalai-lama-quote.png?v=1706740038`,
+    projectName : `Quote-generator`,
+    view : `https://advice-generator-weld-chi.vercel.app/`,
+    sourceCode : `https://github.com/jollyhub8278/advice-generator`,
+  },
+  {
+    // image: `#`,
+    image : `D:/portfolio_website/client/src/assets/docs/tic-tac-toe.jpg`,
+    projectName : `Tic-Tac-Toe`,
+    view : `https://tic-tac-toe-snowy-delta.vercel.app/`,
+    sourceCode : `https://github.com/jollyhub8278/Tic-Tac-Toe-`,
+  },
+]
 export default Projects;

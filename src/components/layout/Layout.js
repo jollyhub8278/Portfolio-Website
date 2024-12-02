@@ -14,7 +14,7 @@ const Layout = () => {
   return (
     <>
       <div className="sidebar-section">
-        <div className={toggle ? "sidebar-toggle sidebar" : "sidebar"}>
+        {/* <div className={toggle ? "sidebar-toggle sidebar" : "sidebar"}>
           <div className="sidebar-toggle-icons">
             <p onClick={handleToggle}>
               {
@@ -23,7 +23,7 @@ const Layout = () => {
             </p>
           </div>
               <Menu toggle = {toggle}/>
-        </div>
+        </div> */}
         {/* <video autoPlay muted loop className="background-video">
           <source
             src={require("../../assets/docs/bgVdo1.mp4")}

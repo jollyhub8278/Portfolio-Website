@@ -22,6 +22,26 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
+              date="Aug. 2024 - Present"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h4 className="vertical-timeline-element-title">
+                Associate Placement Coordinator
+              </h4>
+              <h5 className="vertical-timeline-element-subtitle">
+                IIT Guwahati
+              </h5>
+              <p>
+              As an Associate Placement Coordinator, I managed recruitment processes for top MNCs like Microsoft, Google, and Amazon, ensuring smooth placement drives and interviews. I coordinated with recruiters, helped students with preparation, and built lasting relationships with major employers to secure high-quality opportunities for students.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
               date="Jan. 2024 - Mar. 2024"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}

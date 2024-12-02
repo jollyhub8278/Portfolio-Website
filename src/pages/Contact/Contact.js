@@ -58,14 +58,21 @@ const Contact = () => {
               {/* <Rotate> */}
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
-                    <div className="row">
-                      <h6>
-                        Contact With
-                        <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
-                        <BsFacebook color="blue" size={30} className="ms-2" />
-                      </h6>
-                    </div>
+                  <div className="row">
+  <h6>
+    Contact With
+    <a href="https://www.linkedin.com/in/bharti-jangir/" target="_blank" rel="noopener noreferrer">
+      <BsLinkedin color="blue" size={30} className="ms-2" />
+    </a>
+    <a href="https://github.com/jollyhub8278" target="_blank" rel="noopener noreferrer">
+      <BsGithub color="black" size={30} className="ms-2" />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100093685182339" target="_blank" rel="noopener noreferrer">
+      <BsFacebook color="blue" size={30} className="ms-2" />
+    </a>
+  </h6>
+</div>
+
 
                     <div className="row px-3 mb-4">
                       <div className="line" />

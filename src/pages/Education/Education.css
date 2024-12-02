@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
 .education {
     padding: 100px 0px;
     margin: 50px 0px;
-    margin-left: 120px;
-    background-color: rgba(54, 44, 44, 0.132);
+    margin-left: 30px;
+    background-color: rgba(7, 35, 117, 0.2);
   }
   
   .education hr {
-    color: #138781;
+    color: #ffffff;
     width: 400px;
     margin: 10px auto;
   }
   
   .education h2 {
     font-weight: bold;
-    color: #138781;
+    color: #fffdff;
+    font-family: 'Baskervville SC', serif;
   }
   
   .education .vertical-timeline-element-title {
-    color: #138781;
+    color: #134787;
   }
   
   .education .vertical-timeline-element-subtitle {
