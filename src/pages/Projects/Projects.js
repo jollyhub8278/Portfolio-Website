@@ -35,7 +35,7 @@ const Projects = () => {
                 <a href={d.view} target="_blank" rel="noopener noreferrer">
                   <button className="blue text-white text-lg px-6 py-1 rounded-xl ads-view">View</button>
                 </a>
-                <a href={d.source} target="_blank" rel="noopener noreferrer">
+                <a href={d.sourceCode} target="_blank" rel="noopener noreferrer">
                   <button className="ads-source">Source Code</button>
                 </a>
               </div>
@@ -72,7 +72,7 @@ const data = [
   },
   {
     // image: `#`,
-    image : `D:/portfolio_website/client/src/assets/docs/tic-tac-toe.jpg`,
+    image : `./../../assets/docs/tic-tac-toe.jpg`,
     projectName : `Tic-Tac-Toe`,
     view : `https://tic-tac-toe-snowy-delta.vercel.app/`,
     sourceCode : `https://github.com/jollyhub8278/Tic-Tac-Toe-`,
